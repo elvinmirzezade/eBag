@@ -215,7 +215,7 @@ def test_verify_product():
     except Exception as e:
         print("Error in test_verify_product:", e)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     try:
         #setup_hx711()
         #global previous_weight
